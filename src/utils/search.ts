@@ -16,7 +16,7 @@ export const highlightMatchedNodes = (
   selectedNode: number
 ) => {
   nodes?.forEach((node) => {
-    console.log(node.parentElement?.closest("foreignObject"));
+    
 
     node.parentElement?.closest("foreignObject")?.classList.add("searched");
   });
